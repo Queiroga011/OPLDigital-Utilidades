@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup-1.0.2.exe"><strong>Baixar OPL Digital - Utilidades</strong></a>
+  <a href="https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup.exe"><strong>Baixar OPL Digital - Utilidades</strong></a>
 </p>
 
 ## Sobre
@@ -43,7 +43,7 @@ Comprima, una, separe, reorganize e rotacione PDFs. Tambem e possivel converter 
 
 Baixe o instalador oficial:
 
-[OPL-Digital-Utilidades-Setup-1.0.2.exe](https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup-1.0.2.exe)
+[OPL-Digital-Utilidades-Setup.exe](https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup.exe)
 
 Versao publicada: `1.0.2`
 
@@ -52,7 +52,7 @@ Tamanho aproximado: `115.4 MB`
 ## Como instalar
 
 1. Baixe o instalador pelo link acima.
-2. Abra o arquivo `OPL-Digital-Utilidades-Setup-1.0.2.exe`.
+2. Abra o arquivo `OPL-Digital-Utilidades-Setup.exe`.
 3. Escolha a pasta de instalacao.
 4. Conclua a instalacao.
 5. Abra o programa pelo atalho criado na area de trabalho ou no menu Iniciar.
@@ -73,7 +73,7 @@ Quando uma nova versao estiver disponivel, o programa mostra uma notificacao dis
 Para conferir a integridade do instalador no PowerShell:
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\OPL-Digital-Utilidades-Setup-1.0.2.exe
+Get-FileHash -Algorithm SHA256 .\OPL-Digital-Utilidades-Setup.exe
 ```
 
 Hash esperado:
