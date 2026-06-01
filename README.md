@@ -1,63 +1,44 @@
 # OPL Digital - Utilidades
 
-Ferramentas simples para organizar PDFs e preparar imagens no Windows.
+App desktop da OPL Digital para centralizar ferramentas usadas no dia a dia.
 
-## Download
+## Ferramentas
 
-Versao atual: **1.0.1**
-
-[Baixar OPL Digital - Utilidades para Windows](https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup-1.0.1.7z)
-
-Senha:
-
-```text
--
-```
-
-## Como instalar
-
-1. Baixe o arquivo do instalador pelo link acima.
-2. Extraia o arquivo baixado.
-3. Execute `OPL-Digital-Utilidades-Setup-1.0.1.exe`.
-4. Siga as etapas do instalador.
-5. Abra o programa pelo atalho criado no Windows.
-
-Caso o Windows mostre um aviso de seguranca, clique em **Mais informacoes** e depois em **Executar assim mesmo**.
-
-## Recursos
-
-### PDFs
-
-- Comprimir PDF.
-- Unir arquivos PDF.
-- Extrair paginas.
-- Reordenar paginas.
-- Rotacionar paginas.
-- Editar texto por localizar e substituir.
-- Adicionar assinatura visual.
-- Adicionar marca d'agua.
-- Extrair texto.
-- Exportar paginas como imagens.
-- Criar PDF a partir de imagens.
-- Converter PDF para Word.
-- Converter Word para PDF.
-
-### Imagens
-
-- Redimensionar imagens.
-- Visualizar preview antes de exportar.
-- Ajustar largura, altura e qualidade.
-- Escolher modo de encaixe.
-- Exportar em formatos comuns.
-- Usar fundo transparente em PNG.
-- Escolher cor de fundo para JPG, WEBP e GIF.
+- Central de PDF: comprimir, unir, extrair paginas, reordenar, rotacionar, editar texto, assinar, adicionar marca d'agua, extrair texto, converter paginas em imagens, gerar PDF a partir de imagens e converter PDF/Word.
+- Redimensionador de imagens: preview, dimensoes finais, modos de encaixe, alinhamento, qualidade e suporte a GIF animado.
+- Validador de criativos: analisa imagens, pastas e ZIPs; informa formato, dimensoes, peso e todos os motivos de reprovacao.
+- Correcao individual: converte criativos corrigiveis para JPG e comprime arquivos acima do peso permitido sem alterar suas dimensoes.
 
 ## Atualizacoes
 
-O programa verifica novas versoes automaticamente. Quando uma atualizacao estiver disponivel, um aviso sera exibido com o link para baixar a nova versao.
+O app consulta gratuitamente o manifesto publico `latest.json`. Quando existe uma versao nova, uma notificacao discreta aparece no canto do programa com um botao para baixar o instalador diretamente do GitHub.
 
-## Ultima versao
+O download do Windows usa o instalador `.exe` diretamente, sem arquivo compactado e sem senha.
 
-Todas as versoes publicadas ficam disponiveis em:
+## Tecnologia
 
-https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest
+- Electron para o app desktop.
+- Node.js com Sharp para processamento de imagens.
+- Helper standalone em Python/PyMuPDF empacotado com PyInstaller para processamento de PDFs.
+
+## Requisitos de desenvolvimento
+
+- Node.js 20 ou superior.
+- Python 3 com `PyMuPDF` instalado apenas se precisar reconstruir o helper de PDF.
+- Opcional: LibreOffice para preservar melhor o layout ao converter Word para PDF.
+
+## Rodar
+
+```bash
+npm install
+npm start
+```
+
+## Gerar instalador
+
+```bash
+npm run build
+npm run package:public
+```
+
+O instalador publico sera criado em `release/` com o nome `OPL-Digital-Utilidades-Setup-<versao>.exe`.
