@@ -1,9 +1,8 @@
 {
-  "version": "1.0.1",
-  "notes": "Nova versao do OPL Digital - Utilidades.",
-  "password": "OPLutilidades",
+  "version": "1.0.2",
+  "notes": "Validador de criativos, correcoes individuais e melhorias de interface.",
   "downloads": {
-    "win": "https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup-1.0.1.7z",
-    "mac": "https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-1.0.1-mac.7z"
+    "win": "https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup-1.0.2.exe",
+    "mac": "https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-1.0.2-mac.dmg"
   }
 }
