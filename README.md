@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="assets/opl-icon.png" alt="OPL Digital - Utilidades" width="140">
 </p>
 
@@ -45,9 +45,9 @@ Baixe o instalador oficial:
 
 [OPL-Digital-Utilidades-Setup.exe](https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup.exe)
 
-Versao publicada: `1.0.2`
+Versao publicada: `1.0.3`
 
-Tamanho aproximado: `115.4 MB`
+Tamanho aproximado: `121.3 MB`
 
 ## Como instalar
 
@@ -79,7 +79,7 @@ Get-FileHash -Algorithm SHA256 .\OPL-Digital-Utilidades-Setup.exe
 Hash esperado:
 
 ```text
-7EE9E3DD86D1860EC10A48F90C3F9AB6C5BF2C6410F489A0EFBBF7817A4E2ABE
+05C5B1CF58DD8A99054466657D0E7B74B269165791DA5EC55BDA0A703CBA0A3C
 ```
 
 ## Privacidade
