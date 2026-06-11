@@ -45,7 +45,7 @@ Baixe o instalador oficial:
 
 [OPL-Digital-Utilidades-Setup.exe](https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup.exe)
 
-Versao publicada: `1.0.3`
+Versao publicada: `1.0.4`
 
 Tamanho aproximado: `121.3 MB`
 
@@ -79,7 +79,7 @@ Get-FileHash -Algorithm SHA256 .\OPL-Digital-Utilidades-Setup.exe
 Hash esperado:
 
 ```text
-05C5B1CF58DD8A99054466657D0E7B74B269165791DA5EC55BDA0A703CBA0A3C
+1C9871BCD423F05666E2B4B37AEBA770FDB007490D409836C64FBB7101DC43C9
 ```
 
 ## Privacidade
@@ -91,3 +91,4 @@ Este repositorio publico contem somente os arquivos necessarios para distribuica
 ## Suporte
 
 Use a aba **Issues** deste repositorio para relatar dificuldades com download, instalacao ou uso do programa.
+

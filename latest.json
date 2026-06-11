@@ -1,8 +1,8 @@
-﻿{
-  "version": "1.0.3",
-  "notes": "Correção no processamento de PDFs com acentos e caracteres especiais em nomes de arquivos e pastas.",
+{
+  "version": "1.0.4",
+  "notes": "Correção no aviso de atualização e no processamento de PDFs com acentos e caracteres especiais em nomes de arquivos e pastas.",
   "downloads": {
     "win": "https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup.exe",
-    "mac": "https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-1.0.3-mac.dmg"
+    "mac": "https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-1.0.4-mac.dmg"
   }
 }
