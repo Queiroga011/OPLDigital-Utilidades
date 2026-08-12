@@ -24,12 +24,12 @@ Em vez de conferir criativos manualmente ou usar varias ferramentas separadas, v
 
 Selecione imagens, uma pasta inteira ou um arquivo ZIP. O programa verifica cada criativo e informa:
 
-- se esta em JPG/JPEG;
+- se esta em JPG/JPEG ou GIF;
 - se as dimensoes estao corretas;
 - se o peso do arquivo esta dentro do limite;
 - todos os motivos de erro encontrados.
 
-Quando for possivel corrigir um criativo sem alterar suas dimensoes, o programa mostra o botao **Corrigir criativo** naquele item.
+Quando for possivel corrigir um criativo sem alterar suas dimensoes, o programa converte PNG para JPG, normaliza nomes de arquivos e permite baixar todos os criativos corretos ou corrigidos de uma so vez.
 
 ### Redimensionar imagens
 
@@ -45,9 +45,9 @@ Baixe o instalador oficial:
 
 [OPL-Digital-Utilidades-Setup.exe](https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup.exe)
 
-Versao publicada: `1.0.4`
+Versao publicada: `1.0.5`
 
-Tamanho aproximado: `121.3 MB`
+Tamanho aproximado: `121.4 MB`
 
 ## Como instalar
 
@@ -79,7 +79,7 @@ Get-FileHash -Algorithm SHA256 .\OPL-Digital-Utilidades-Setup.exe
 Hash esperado:
 
 ```text
-1C9871BCD423F05666E2B4B37AEBA770FDB007490D409836C64FBB7101DC43C9
+2917DBF66658DDE92C9CFA4EAE8FDEEF3EE9C63A57C542D5CDF6120C6DD9C286
 ```
 
 ## Privacidade
