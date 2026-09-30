@@ -39,13 +39,17 @@ Ajuste largura, altura, formato, qualidade, enquadramento e alinhamento de image
 
 Comprima, una, separe, reorganize e rotacione PDFs. Tambem e possivel converter paginas em imagens, gerar PDF a partir de imagens e usar outras ferramentas praticas.
 
+### Acessar os portais OPL
+
+Abra no aplicativo a Central de Pessoas e Ferias, o Gerador de Propostas Comerciais, o Briefing e Trello e o Double Check. O Double Check ainda esta em desenvolvimento.
+
 ## Download
 
 Baixe o instalador oficial:
 
 [OPL-Digital-Utilidades-Setup.exe](https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup.exe)
 
-Versao publicada: `1.0.5`
+Versao publicada: `1.0.6`
 
 Tamanho aproximado: `121.4 MB`
 
@@ -79,12 +83,12 @@ Get-FileHash -Algorithm SHA256 .\OPL-Digital-Utilidades-Setup.exe
 Hash esperado:
 
 ```text
-2917DBF66658DDE92C9CFA4EAE8FDEEF3EE9C63A57C542D5CDF6120C6DD9C286
+8F94E9538C6EC01DD21DFB56B17C426DB2FF914473977D0568DB71D6488EAB19
 ```
 
 ## Privacidade
 
-O processamento acontece localmente no seu computador. Os arquivos selecionados nao sao enviados para servidores externos.
+As ferramentas locais processam arquivos no computador. Os portais web se comunicam com os servicos online da OPL; consulte as regras de cada portal antes de enviar dados ou arquivos.
 
 Este repositorio publico contem somente os arquivos necessarios para distribuicao do aplicativo. O codigo-fonte fica em um repositorio privado.
 
