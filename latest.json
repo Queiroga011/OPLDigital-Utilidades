@@ -1,6 +1,6 @@
 {
-  "version": "1.0.6",
-  "notes": "Quatro novos portais OPL integrados ao aplicativo: Pessoas e Ferias, Propostas Comerciais, Briefing e Trello e Double Check (em desenvolvimento). Melhorias no aviso de atualizacao.",
+  "version": "1.0.7",
+  "notes": "Double Check atualizado: novo endereco e login integrado ao aplicativo.",
   "downloads": {
     "win": "https://github.com/Queiroga011/OPLDigital-Utilidades/releases/latest/download/OPL-Digital-Utilidades-Setup.exe"
   }
